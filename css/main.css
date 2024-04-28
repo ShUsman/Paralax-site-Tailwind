@@ -140,3 +140,14 @@ body {
     font-size: calc(var(--index) * .75);
     letter-spacing: calc(var(--index)) / 37;
 }
+
+.menu {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    will-change: transform;
+    z-index: 2;
+    transition: var(--transition);
+}
+

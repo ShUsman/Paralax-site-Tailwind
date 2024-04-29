@@ -91,12 +91,12 @@ body {
 
 .layers_title {
     font-size: calc(var(--index) * 2.5);
-    letter-spacing: calc(var(--index) / 2.25 );
+    letter-spacing: calc(var(--index) / 4 );
 }
 
 .layers_caption {
     font-size: calc(var(--index) / 1.175);
-    letter-spacing: calc(var(--index) / 3.5 );
+    letter-spacing: calc(var(--index) / 5 );
     margin-top: calc(var(--index) * -0.70 );
 }
 
